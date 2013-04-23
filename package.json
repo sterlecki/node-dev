@@ -1,0 +1,23 @@
+{
+  "name": "node-dev",
+  "version": "0.0.1",
+  "description": "Playpen for looking at new node stuff.",
+  "homepage": "https://github.com/sterleck/node-dev",
+  "keywords": ["stuff"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sterleck/node-dev.git"
+  },
+  "author": "Stephen Terlecki <sterlecki@gmail.com>",
+  "main": "index.js",
+  "directories": {
+    "lib": "."
+  },
+  "dependencies": {
+      "futures": ">= 2.3.1",
+      "step": ">= 0.0.5"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
